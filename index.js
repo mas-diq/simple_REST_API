@@ -12,10 +12,26 @@ app.get('/menu', (req, res) => {
             "type": "makanan",
             "name": "nasi goreng",
             "ingredients": [
-                "nasi", "cabai", "bawang putih", "bawang merah"
+                "nasi", "cabai", "bawang putih", "bawang merah", "telur ayam"
             ],
             "price": 12000,
             "stock": 24
+        }, {
+            "type": "makanan",
+            "name": "nasi bakar",
+            "ingredients": [
+                "nasi", "cabai", "bawang putih", "daun pisang", "ayam suir"
+            ],
+            "price": 15000,
+            "stock": 12
+        }, , {
+            "type": "makanan",
+            "name": "nasi lemak",
+            "ingredients": [
+                "nasi", "cabai", "bawang putih", "daging sapi", "santan"
+            ],
+            "price": 12000,
+            "stock": 52
         }, {
             "type": "minuman",
             "name": "es teh manis",
@@ -24,6 +40,14 @@ app.get('/menu', (req, res) => {
             ],
             "price": 4000,
             "stock": 12
+        }, {
+            "type": "minuman",
+            "name": "es jeruk",
+            "ingredients": [
+                "air", "jeruk limau", "gula pasir"
+            ],
+            "price": 8000,
+            "stock": 18
         }]
     })
 });
