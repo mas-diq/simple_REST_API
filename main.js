@@ -11,4 +11,4 @@ app.use('/users', userRoutes);
 
 app.get('/', (req, res) => res.send("Hello from hompage"));
 
-app.listen(PORT, () => console.log(`Server running on port : http://localhost:${PORT}/users`));
+app.listen(PORT, () => console.log(`Server running on port : http://localhost:${PORT}`));
